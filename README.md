@@ -100,7 +100,7 @@ Once the ABBREVIA package is installed, you should be able to run the program wi
 
 - 🌱 I’m currently studying **Solidity, Python and React Native**
 
-- 👨‍💻 All of my projects are available at [www.github.com/zC4sTr0](/zC4sTr0)
+- 👨‍💻 All of my projects are available at [my GitHub](https://github.com/zC4sTr0C4sTr0)
 
 - 📫 How to reach me: **gabriel.sodre@aluno.ufop.edu.br**
 
