@@ -96,7 +96,7 @@ Once the ABBREVIA package is installed, you should be able to run the program wi
 
 <sub> My twitter is worth to check since it has 2 years of recorded proofs of my true love about economy, bitcoin and my own travel through the bitcoin's rabbit hole.</sub>
 
-- 🔭 I’m currently working on [GunBound GITZ](www.gitzwc.com) as Founder/CEO
+- 🔭 I’m currently working on [GunBound GITZ](http://www.gitzwc.com) as Founder/CEO
 
 - 🌱 I’m currently studying **Solidity, Python and React Native**
 
