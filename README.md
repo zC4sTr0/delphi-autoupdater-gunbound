@@ -13,7 +13,7 @@ A beautiful auto updater program made in Delphi 7 to update files in source fold
     <a href="#how-to-run">How to Run</a><span> | </span>
     <a href="#about-me">About</a><span>
   </h3>
-  <div align="center"><sub>Made with ❤︎ by <a href="https://github.com/zC4sTr0">Gabriel Castro</a></sub></div>
+  <div align="center"><sub>Made with ❤︎ by <a href="https://github.com/zC4sTr0">Gabriel Castro</a> and <a href="https://github.com/samuelrizzo">Samuel Rizzo</a></sub></div>
 </div>
 
 # Preview
