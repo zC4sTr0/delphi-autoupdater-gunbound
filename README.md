@@ -66,9 +66,20 @@ If the updater.ini file does not exist in the same folder as the updater executa
 
 # How to run
 
-To run this applications, you must have Delphi 7+ installed in your computer.
+To run this applications, you must have Delphi 7 installed in your computer.
 
 Read more about how to Install Delphi here: https://www.embarcadero.com/br/products/delphi/starter/free-download
+
+Additionally, this program requires the installation of the ABBREVIA component package to use the AbUnzipper. This package is provided in the repository and can be found at packages\Delphi 7\Abbrevia.dpk.
+
+To install ABBREVIA in Delphi, follow these steps:
+
+- Open the ABBREVIA package (Abbrevia.dpk) in Delphi.
+- From the "Package" menu, select "Compile".
+- If there are no errors, from the "Package" menu select "Install".
+- If you see a dialog box asking if you want to rebuild the IDE, click "No".
+  
+Once the ABBREVIA package is installed, you should be able to run the program without issue. If you encounter any problems, please open an issue.
 
 # About me
 
