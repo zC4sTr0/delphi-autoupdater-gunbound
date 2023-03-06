@@ -1,4 +1,4 @@
-<p  align="center"><img  src="preview/preview-mainform.png"  alt="PREVIEW"  width="100"  height="100"></p>
+<p  align="center"><img  src="preview/preview-mainform.png"  alt="PREVIEW"  ></p>
 <h1  align="center">Delphi Updater Program</h1>
 <div  align="center">
 A beautiful auto updater program made in Delphi 7 to update files in source folder. 
