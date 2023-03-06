@@ -9101,7 +9101,7 @@ object fmrUpdate: TfmrUpdate
     ExtractOptions = [eoCreateDirs, eoRestorePath]
     LogFile = 'UpdaterExtract.log'
     Logging = True
-    Password = 'gpcastro'
+    Password = 'ExemplePass'
     Left = 560
     Top = 384
   end

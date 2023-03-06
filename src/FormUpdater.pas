@@ -723,17 +723,12 @@ begin
   begin
    GitzConfig.WriteInteger('Config','Idioma',1);
    OutputDebugStringA('GunProtect] Language found! Portuguese.');
-  // fmrUpdate.mmoLauncherIni.Lines.Strings[17] := 'Url_Notice=http://boomer.gitzwc.com:8074/notice2016/notice.php';
   end else begin
-
    if LanguageCode = 'es' then begin
     GitzConfig.WriteInteger('Config','Idioma',2);
-   // fmrUpdate.mmoLauncherIni.Lines.Strings[17] := 'Url_Notice=http://boomer.gitzwc.com:8074/notice2016/notice_es.php';
     OutputDebugStringA('GunProtect] Language found! Spanish.');
     end else begin
     GitzConfig.WriteInteger('Config','Idioma',3); //ingles
-   // fmrUpdate.mmoLauncherIni.Lines.Strings[17] := 'Url_Notice=http://boomer.gitzwc.com:8074/notice2016/notice_en.php';
-   //    WriteIni(pchar(UpdaterPath+'NyxLauncher.dll'),'[Gunbound]','Url_Notice','http://boomer.gitzwc.com:8074/notice2016/notice_en.php');
     OutputDebugStringA(pchar('GunProtect] Language not found! CountryFlag = '+LanguageCode + ' | English language has been set.'));
    end;
   end;
