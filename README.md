@@ -70,7 +70,10 @@ To run this applications, you must have Delphi 7 installed in your computer.
 
 Read more about how to Install Delphi here: https://www.embarcadero.com/br/products/delphi/starter/free-download
 
-Additionally, this program requires the installation of the ABBREVIA component package to use the AbUnzipper. This package is provided in the repository and can be found at packages\Delphi 7\Abbrevia.dpk.
+Additionally, this program requires the installation of the ABBREVIA component package to use the AbUnzipper. <br>
+This package is provided in the repository and can be found at 
+
+`` ..\packages\Delphi 7\Abbrevia.dpk. ``
 
 To install ABBREVIA in Delphi, follow these steps:
 
