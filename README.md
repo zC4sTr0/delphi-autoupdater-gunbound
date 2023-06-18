@@ -74,13 +74,25 @@ Additionally, this program requires the installation of the ABBREVIA component p
 This package is provided in the repository and can be found at 
 
 `` ..\Abbrevia\packages\Delphi 7\Abbrevia.dpk. ``
+  
 
-To install ABBREVIA in Delphi, follow these steps:
+_To install ABBREVIA in Delphi, follow these steps:_
 
-- Open the ABBREVIA package (Abbrevia.dpk) in Delphi.
-- From the "Package" menu, select "Compile".
-- If there are no errors, from the "Package" menu select "Install".
-- If you see a dialog box asking if you want to rebuild the IDE, click "No".
+  ![image](https://github.com/zC4sTr0/delphi-autoupdater-gunbound/assets/38432614/0936d082-4131-4ea2-ad79-e84358abf8af)
+  
+- Open ALL ABBREVIA packages (dpks) located in `` ..\Abbrevia\packages\Delphi 7\`` folder in Delphi and to each one do the following steps:
+  
+  - From the "Package" menu, select "Compile": ![image](https://github.com/zC4sTr0/delphi-autoupdater-gunbound/assets/38432614/d16dde07-1bea-4b87-9f06-bc0c00f49877)
+  
+  
+  
+  - If there are no errors, from the "Package" menu select "Install": ![image](https://github.com/zC4sTr0/delphi-autoupdater-gunbound/assets/38432614/a994fe2c-c6a2-4cac-a01c-551bb0da8b23)
+  
+  
+  - If you see a dialog box telling you that it's not a design time package like this, just press ok. (it happens because this package shouldn't be installed, only compiled)
+  
+    ![image](https://github.com/zC4sTr0/delphi-autoupdater-gunbound/assets/38432614/ac84ba72-3264-471e-8518-91813bae513c)
+  
   
 Once the ABBREVIA package is installed, you should be able to run the program without issue. If you encounter any problems, please open an issue.
 
