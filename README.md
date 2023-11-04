@@ -96,6 +96,47 @@ _To install ABBREVIA in Delphi, follow these steps:_
   
 Once the ABBREVIA package is installed, you should be able to run the program without issue. If you encounter any problems, please open an issue.
 
+# Filelist.dat documentation
+
+The filelist.dat file is used to store the names, sizes, and hashes of all the files required for the update. The filelist.dat file is used by the updater to ensure that only the necessary files are updated. The filelist.dat file is a text file that contains the following information:
+
+- File name
+- File size
+- File Hash
+
+Using the following format: Name#Size;Hash<br>
+The separator is the # for the name and size, and the ; for the hash.<br>
+
+The Size must be specified in bytes.<br>
+If size is not correct, the file will not be successfully updated.
+
+ Example (GITZWC):
+
+```
+UpdaterReplacer.exe#206025;aQ5c7aoRuH/Y3wbH8eepu1mbwAYt9XMAA+/zdkw7at8=
+Updater.exe#1372200;/d1A0D9llGbUuFdlt5VpPMiX9048fI56FiajD0jyxf4=
+launcher.dll#1084968;mGgy0cRVemVRbI5q6GeosLXunFslIa/cRDELAJXMuWk=
+npqcrypt.dll#300266;7SSGRTvrHRJbE7u6mpevsXvai4xp13ggHRmXcHE5fwg=
+NyxLauncher.exe#1168473;Whxr1xlRJpvo9IgOuNC2DQ9YLB0gaBRVc7AQwiL1IDY=
+GunProtect.exe#435400;DRb4QED52OFnjRmG1oKT24E6/uRb9zdO39a3+9bKvYQ=
+gitzgame.gme#5247528;rV9ls13yodoW/tr8XnaewuHK23o3v28j1CpwHnV2QJU=
+GProtect.dll#9594160;0+NWuL+n9FZUJVyihReGs0WWL0Uqf9E9mRonA5/3Ujo=
+GunProtectBG.png#342269;hyW4NFN02XvQ1Ts6L+CMT1WW0JB0BZM4zoQ4f6NmkW8=
+NyxLauncher.dll#1168473;XmH6pfh8NMam0Vt8V3yyF+Orf1O2uw9h4cJlv/RvS28=
+GitzWindowMode.dll#67624;TTSzyi2y9w0/ItH7lkjSSzvPlE4wHJurcyvp24yhKqA=
+wndmode.ini#429;SwX5jdT8uCSiYh6cc2Kqd9sTZDVqNSzBdGysHDVM7yg=
+dxwnd.dll#1164930;WUErEP6e5NiM1CUVhhO4VkDcVb51QwnyvhuwLPREfKw=
+GbSet.exe#2821936;rUrguiZfQIv6iXMHHXtDkT3dna14EBSb19deLkUQVgw=
+```
+
+## How to generate the hashes:
+
+I included the official Blake-256 hash generator in the repository(filelist Hash Generator, inside bin folder), but you can use any other hash generator to generate the hashes.<br>
+To generate the hashes, you need to use the Blake-256 algorithm and encode the hash in base64.
+
+There's probably tons of other online file hash generators you can use, such as this one: https://toolkitbay.com/tkb/tool/BLAKE2s_256
+
+
 # About me
 
 <h3  align="center"> I'm Gabriel Castro and I love coding softwares!</h3>
